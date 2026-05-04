@@ -1,5 +1,3 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/deepak-fish-aquarium/$1" }
-  ]
+  "cleanUrls": true
 }
