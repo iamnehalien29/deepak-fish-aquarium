@@ -1,5 +1,7 @@
 {
   "rewrites": [
+    { "source": "/kharar-fish-aquarium", "destination": "/kharar-fish-aquarium/index.html" },
+    { "source": "/kharar-fish-aquarium/(.*)", "destination": "/kharar-fish-aquarium/$1" },
     { "source": "/(.*)", "destination": "/deepak-fish-aquarium/$1" }
   ]
 }
