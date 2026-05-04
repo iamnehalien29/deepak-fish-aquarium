@@ -250,6 +250,19 @@ img { max-width: 100%; height: auto; }
 }
 .btn-cart:hover { background: var(--gradient-teal); color: var(--deep-ocean); border-color: transparent; }
 
+/* ===== TESTIMONIALS ===== */
+.testimonial-card {
+  background: var(--card-bg); border: 1px solid var(--glass-border);
+  border-radius: var(--radius); padding: 32px; height: 100%;
+  position: relative; transition: var(--transition);
+}
+.testimonial-card:hover { transform: translateY(-5px); border-color: var(--teal); box-shadow: var(--shadow-glow); }
+.quote-icon { font-size: 2.5rem; color: rgba(0,180,216,0.2); line-height: 1; margin-bottom: 16px; }
+.testimonial-card p { font-style: italic; color: var(--seafoam); margin-bottom: 24px; font-size: 1rem; }
+.user-info { display: flex; align-items: center; gap: 16px; }
+.user-details h5 { font-family: 'Outfit', sans-serif; font-weight: 700; margin: 0; font-size: 1.1rem; }
+.rating { color: var(--gold); font-size: 0.8rem; margin-top: 4px; }
+
 /* ===== GALLERY ===== */
 .gallery-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
