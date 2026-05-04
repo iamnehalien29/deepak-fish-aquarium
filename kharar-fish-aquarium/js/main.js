@@ -133,7 +133,7 @@ const cart = {
   },
   checkout() {
     if (this.items.length === 0) return;
-    let msg = '🛒 *Order from Deepak Fish Aquarium Website*\n\n';
+    let msg = '🛒 *Order from Kharar Fish Aquarium Website*\n\n';
     this.items.forEach(i => {
       msg += `• ${i.name} x${i.qty} — ₹${i.price * i.qty}\n`;
     });
@@ -168,7 +168,7 @@ function initContactForm() {
     const interest = document.getElementById('cf-interest').value;
     const message = document.getElementById('cf-message').value;
     
-    let msg = `🐠 *New Inquiry — Deepak Fish Aquarium*\n\n`;
+    let msg = `🐠 *New Inquiry — Kharar Fish Aquarium*\n\n`;
     msg += `*Name:* ${name}\n`;
     msg += `*Phone:* ${phone}\n`;
     msg += `*Interest:* ${interest}\n`;
