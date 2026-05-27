@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# local database
+data/
+
+# environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
